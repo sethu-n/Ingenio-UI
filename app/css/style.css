@@ -108,7 +108,7 @@ body {
     justify-content: flex-end;
     margin-top: 16px; }
     .card-container .card-reviews-ratings > div {
-      padding-left: 20px;
+      padding-left: 8px;
       text-align: right; }
   .card-container .card-actions {
     margin-top: 16px; }
@@ -170,10 +170,6 @@ body {
     .card-container .card-actions .charge {
       text-align: left; } }
 
-@media (max-width: 767px) {
-  .card-container .card-actions .row > div:not(:first-child) {
-    padding-left: 16px; } }
-
 @media (min-width: 768px) and (max-width: 991px) {
   .font-large {
     font-size: 24px; }
@@ -184,21 +180,19 @@ body {
   .card-container .card-actions .btn-primary {
     padding: 8px 12px; } }
 
+@media (max-width: 767px) {
+  .card-container .card-actions .row > div:not(:first-child) {
+    padding-left: 16px; } }
+
 @media (min-width: 576px) and (max-width: 767px) {
   .card-container .card-reviews-ratings > div {
     text-align: right;
     min-width: 150px; } }
 
 @media (min-width: 320px) and (max-width: 575px) {
-  .font-large {
-    font-size: 18px; } }
-
-@media (max-width: 319px) {
-  .font-large {
-    font-size: 16px; }
-  .font-small {
-    font-size: 8px; }
-  .font-regular, body {
-    font-size: 10px; }
   .font-medium {
-    font-size: 12px; } }
+    font-size: 14px; }
+  .card-container .card-actions .free-badge {
+    font-size: 10px; }
+  .card-container .card-reviews-ratings > div {
+    min-width: 90px; } }

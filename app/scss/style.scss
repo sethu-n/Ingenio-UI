@@ -157,7 +157,7 @@ body {
         margin-top: 16px;
 
         &>div {
-            padding-left: 20px;
+            padding-left: 8px;
             text-align: right;
         }
     }
@@ -271,20 +271,6 @@ body {
     }
 }
 
-//For All Mobile Devices
-@media (max-width : 767px) {
-    .card-container {
-        .card-actions {
-
-            .row {
-                &>div:not(:first-child) {
-                    padding-left: 16px;
-                }
-            }
-        }
-    }
-}
-
 // Only for Tablet Devices
 @media (min-width : 768px) and (max-width : 991px) {
     .font-large {
@@ -308,11 +294,24 @@ body {
     }
 }
 
+//For All Mobile Devices
+@media (max-width : 767px) {
+    .card-container {
+        .card-actions {
+
+            .row {
+                &>div:not(:first-child) {
+                    padding-left: 16px;
+                }
+            }
+        }
+    }
+}
+
 // For Low resolution tablets and mobile portrait
 @media (min-width : 576px) and (max-width : 767px) {
     .card-container {
         .card-reviews-ratings {
-
             &>div {
                 text-align: right;
                 min-width: 150px;
@@ -323,26 +322,19 @@ body {
 
 // For medium resolution mobiles
 @media (min-width : 320px) and (max-width : 575px) {
-    .font-large {
-        font-size: 18px;
+    .font-medium{
+        font-size: 14px;
     }
-}
-
-//Low resolution mobile phones
-@media (max-width : 319px) {
-    .font-large {
-        font-size: 16px;
-    }
-
-    .font-small {
-        font-size: 8px;
-    }
-
-    .font-regular {
-        font-size: 10px;
-    }
-
-    .font-medium {
-        font-size: 12px;
+    .card-container{
+        .card-actions{
+            .free-badge{
+                font-size: 10px;
+            }
+        }
+        .card-reviews-ratings {
+            &>div {
+                min-width: 90px;
+            }
+        }
     }
 }
