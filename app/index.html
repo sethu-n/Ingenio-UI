@@ -1,37 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ingenio</title>
-    <link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="assets/icons/fontawesome/css/all.min.css" />
-    <link rel="stylesheet" href="css/bootstrap-4.3.1-dist/css/bootstrap-grid.min.css" />
-  </head>
 
-  <body>
-    <div>This is a static template, there is no bundler or bundling involved!</div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ingenio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="assets/icons/fontawesome/css/all.min.css" />
+  <link rel="stylesheet" href="css/bootstrap-4.3.1-dist/css/bootstrap-grid.min.css" />
+</head>
 
-    <i class="fas fa-gem"></i>
-    <i class="fas fa-star"></i>
-    <i class="fas fa-phone-alt"></i>
-    <i class="fas fa-comment"></i>
-    <i class="fas fa-check-circle"></i>
+<body>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-sm">
-          One of three columns
+  <div class="container-fluid card-container">
+    <div class="row">
+
+      <!-- Details Container -->
+      <div class="col-12 col-md-7 col-lg-6 card-details">
+        <div class="figure">
+          <img src="assets/images/classic-s.jpg" alt="profile-picture">
+          <div class="favourite"><i class="far fa-heart"></i></div>
         </div>
-        <div class="col-sm">
-          One of three columns
+
+        <div class="details ml-3">
+          <div class="details-header bold font-large color-green">
+              <div>The Love Clarvoiyant</div>
+              <i class="fas fa-check-circle check-icon"></i>
+          </div>
+
+          <div class="bold mt-3">
+            Stop guessing. Known for accuracy.
+          </div>
+
+          <div class="description truncate-overflow mt-3">
+            Quisque luctus elit id mauris convallis maximums. Mauris pretium iaclus asdf adsf adfrgewtwe gwelkjg lwfkmd
+            krb egbs vvv Quisque luctus elit id mauris convallis maximums. Mauris pretium iaclus asdf adsf adfrgewtwe 
+            gwelkjg lwfkmd  krb egbs vvv Quisque luctus elit id mauris convallis maximums. Mauris pretium iaclus asdf 
+            adsf adfrgewtwe  gwelkjg lwfkmd csdm asfkltjgow efdfvsd vsbjri  cvretb rb wv weoirjv wercmwlervmrt b
+          </div>
+
+          <div class="color-green read-more">
+            Read More
+          </div>
         </div>
-        <div class="col-sm">
-          One of three columns
+      </div>
+
+      <!-- Ratings container -->
+      <div class="col-12 col-md-3 col-lg-3 card-reviews-ratings">
+        <div>
+          <div class="font-medium">
+            <i class="fas fa-star color-purple"></i>
+            <i class="fas fa-star color-purple"></i>
+            <i class="fas fa-star color-purple"></i>
+            <i class="fas fa-star color-purple"></i>
+            <i class="fas fa-star color-purple"></i>
+          </div>
+          <div class="font-small color-grey">59,222 REVIEWS</div>
+        </div>
+
+        <div class="rating">
+          <div class="font-large bold">2009</div>
+          <div class="font-small color-grey">MEMBER SINCE</div>
+        </div>
+
+        <div>
+          <div class="font-large bold">67,924<i class="fas fa-gem color-purple pl-1"></i></div>
+          <div class="font-small color-grey">RATING POINTS</div>
+        </div>
+
+      </div>
+
+      <!-- Action container -->
+      <div class="col-12 col-md-2 col-lg-3 card-actions">
+        <div class="row align-items-center no-gutters">
+          <div class="col-4 col-md-12">
+            <div class="free-badge">First 3 min Free</div>
+            <div class="bold charge"><span class="font-medium">$8.99 </span> / min</div>
+          </div>
+
+          <div class="col-4 col-md-12">
+            <button class="btn-primary">
+              <i class="fas fa-phone-alt"></i> Call Now
+            </button>
+          </div>
+
+          <div class="col-4 col-md-12">
+            <button class="btn-primary">
+              <i class="fas fa-comment"></i> Chat Now
+            </button>
+          </div>
         </div>
       </div>
     </div>
+  </div>
 
-  </body>
+</body>
+
 </html>
